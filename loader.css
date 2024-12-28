@@ -1,0 +1,40 @@
+.body{
+    text-align:center;
+    /* margin: 0px;
+    padding: 0px;
+     display: flex; */
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+ /* .container{
+    
+     display: flex; 
+    justify-content: center; 
+    align-items: center;  
+}   */
+
+.circle{
+    height: 200px;
+    width:200px;  
+    border: 15px solid yellow;
+    border-radius: 100%;
+    border-top: 15px solid chartreuse;
+    animation-name: rotateanimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    margin: 200px 0px 0px 600px ;   
+}
+
+@keyframes rotateanimate{
+    from{
+        transform: rotate(0deg);
+        }
+    to{
+        transform: rotate(360deg);
+    }
+}
